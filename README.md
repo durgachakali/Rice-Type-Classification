@@ -12,19 +12,28 @@
 * Corinna Strada
 
 ## Abstract
-In order to ensure an effective and fruitful rice cultivation process, it is essential that the seeds belonging to a specific species are provided to farmers. In this regard, Machine Learning models were built with the aim of distinguishing between two species of rice (Jasmine and Gonen) in the most effective way possible. In addition, it was researched which of the two was the simplest type of rice to identify. The results may be useful, in the future, to ensure a more effective and faster selection of seeds compared to the selection method used today.
+In order to ensure an effective and fruitful rice cultivation process, it is essential that the seeds belonging to a specific species are provided to farmers.  <br>
+In this regard, Machine Learning models were built with the aim of distinguishing between two species of rice (Jasmine and Gonen) in the most effective way possible. In addition, it was researched which of the two was the simplest type of rice to identify.  <br>
+The results may be useful, in the future, to ensure a more effective and faster selection of seeds compared to the selection method used today.
 
 ## Introduction 
-Rice is one of the most consumed products in the world. Its cultivation begins with the selection of seeds, which are planted after suitable soil preparation.
-For the entire life cycle of the plant, it is essential to control the management of water levels and nutrient absorption, determining, if necessary, the use of fertilizers. At the right time, we move on to the harvest and any post-harvest treatments.
-The presence of problems relating to the seed selection step could delay or stop the entire production cycle: in particular, a fundamental step in this case is to ensure that there is no contamination or mix between different categories of rice.
-In order for only one type of rice to be supplied to the growers, selection processes are carried out. However, these processes are manual and are based on a small number of samples. The results, therefore, are often extremely unreliable. For this reason, the use of automated rice classification methods is recommended to ensure fast and reliable categorization.
-In the dataset used for this project, two different categories of rice are considered: “Jasmine” and “Gonen”.
-Jasmine rice originates in Thailand and is characterized by a very high level of appearance, quality and aroma. Gonen rice, on the other hand, comes from Turkey and is the third rice in the world in terms of productivity and, like all other
-Turkish rice seed varieties, is characterized by high germination rates.
-The primary goal, in this case, is to determine with the greatest possible success the type of rice grain based on the variables identified in the dataset, thus identifying the best classification model.
-The secondary goal, on the other hand, is to establish which of the two varieties of rice is more easily identifiable.
-The initial part of this article is dedicated to the description of the dataset and a preliminary analysis of the information contained within it. After that, there is a presentation of the developed classification models, the best hyper-parameters chosen, and the performance measures used.
+Rice is one of the most consumed products in the world. Its cultivation begins with the selection of seeds, which are planted after suitable soil preparation. <br>
+<br>
+For the entire life cycle of the plant, it is essential to control the management of water levels and nutrient absorption, determining, if necessary, the use of fertilizers. At the right time, we move on to the harvest and any post-harvest treatments.<br>
+<br>
+The presence of problems relating to the seed selection step could delay or stop the entire production cycle: in particular, a fundamental step in this case is to ensure that there is no contamination or mix between different categories of rice.<br>
+<br>
+In order for only one type of rice to be supplied to the growers, selection processes are carried out. However, these processes are manual and are based on a small number of samples. The results, therefore, are often extremely unreliable. For this reason, the use of automated rice classification methods is recommended to ensure fast and reliable categorization.<br>
+<br>
+In the dataset used for this project, two different categories of rice are considered: “Jasmine” and “Gonen”.<br>
+<br>
+Jasmine rice originates in Thailand and is characterized by a very high level of appearance, quality and aroma. Gonen rice, on the other hand, comes from Turkey and is the third rice in the world in terms of productivity and, like all other Turkish rice seed varieties, is characterized by high germination rates.<br>
+<br>
+The primary goal, in this case, is to determine with the greatest possible success the type of rice grain based on the variables identified in the dataset, thus identifying the best classification model.<br>
+<br>
+The secondary goal, on the other hand, is to establish which of the two varieties of rice is more easily identifiable.<br>
+The initial part of this article is dedicated to the description of the dataset and a preliminary analysis of the information contained within it. After that, there is a presentation of the developed classification models, the best hyper-parameters chosen, and the performance measures used.<br>
+<br>
 The final part of the work is therefore dedicated to the description of the analyses carried out and the results achieved, based on the two different research goals.
 
 ## Dataset
