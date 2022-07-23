@@ -6,7 +6,7 @@
 2021/22 Machine Learning Project @ University of Milano-Bicocca
 
 ### Team
-* Aurora Cerabolini (839327)
+* Aurora Cerabolini
 * Kevin Capano
 * Federico Pirola
 * Corinna Strada
