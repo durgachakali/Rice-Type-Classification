@@ -32,6 +32,7 @@ Jasmine rice originates in Thailand and is characterized by a very high level of
 The primary goal, in this case, is to determine with the greatest possible success the type of rice grain based on the variables identified in the dataset, thus identifying the best classification model.<br>
 <br>
 The secondary goal, on the other hand, is to establish which of the two varieties of rice is more easily identifiable.<br>
+<br>
 The initial part of this article is dedicated to the description of the dataset and a preliminary analysis of the information contained within it. After that, there is a presentation of the developed classification models, the best hyper-parameters chosen, and the performance measures used.<br>
 <br>
 The final part of the work is therefore dedicated to the description of the analyses carried out and the results achieved, based on the two different research goals.
